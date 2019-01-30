@@ -1,0 +1,23 @@
+{
+  "name": "tuya-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "device_logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arizz96/tuya-logger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arizz96/tuya-logger/issues"
+  },
+  "homepage": "https://github.com/arizz96/tuya-logger#readme",
+  "dependencies": {
+    "pg": "^7.8.0",
+    "tuyapi": "github:codetheweb/tuyapi"
+  }
+}
