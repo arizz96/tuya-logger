@@ -29,3 +29,12 @@ CREATE TABLE tuya_devices (
   "dps_25" integer,
   "created_at" timestamp NOT NULL
 );
+
+CREATE TABLE devices (
+  "id" serial primary key,
+  "name" character varying,
+  "device_id" character varying NOT NULL,
+  "device_key" character varying NOT NULL,
+  "device_ip" character varying NOT NULL,
+  "created_at" timestamp NOT NULL
+);
