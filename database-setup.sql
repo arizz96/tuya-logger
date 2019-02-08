@@ -1,4 +1,5 @@
 CREATE DATABASE energy_monitor_logs;
+
 CREATE TABLE tuya_devices (
   "id" serial primary key,
   "device_id" character varying,
